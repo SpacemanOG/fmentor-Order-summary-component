@@ -141,6 +141,10 @@ button:nth-child(2) {
         font-size: medium;
     }
 
+    .midPricingDetails a:hover {
+        text-decoration: none;
+    }
+
     .bottomButtons button {
         width: 100%;
     }
@@ -149,7 +153,17 @@ button:nth-child(2) {
         margin-top: 32px;
     }
 
+    .bottomButtons button:first-child:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
     .bottomButtons button:nth-child(2) {
         margin-top: 16px;
+    }
+
+    .bottomButtons button:nth-child(2):hover {
+        color: black;
+        cursor: pointer;
     }
 }
