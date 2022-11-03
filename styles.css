@@ -31,13 +31,16 @@ body {
 .topIntro h1 {
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 16px;
 }
 
 .topIntro p {
     text-align: center;
-    width: 265px;
+    width: 275px;
     line-height: 1.5;
     color: hsl(224, 23%, 55%);
+    font-size: medium;
+    margin: 0 auto;
 }
 
 .midPricingDetails {
@@ -62,6 +65,7 @@ body {
 
 .pricing p {
     margin: 0;
+    font-size: small;
 }
 
 .pricing p:first-child {
