@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.containerOuter {
+    width: 327px;
+    height: 567px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 16px;
+    background-image: url(./images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.containerInner {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.topIntro h1 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.topIntro p {
+    text-align: center;
+    width: 265px;
+    line-height: 1.5;
+}
+
+.midPricingDetails {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 16px;
+}
+
+.midPricingDetails img {
+    width: 50px;
+    height: 50px;
+}
+
+/* .midPricingDetails p:first-child,
+.midPricingDetails:nth-child(2) {
+    display: inline-block;
+    margin: 0;
+} */
+
+button:first-child {
+    width: 280px;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    border: 0;
+    border-radius: 16px;
+}
+
+button:nth-child(2) {
+    width: 280px;
+    height: 50px;
+    background-color: transparent;
+    border: 0;
+}
